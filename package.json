@@ -1,0 +1,23 @@
+{
+  "name": "gemini-neon-promo-remotion",
+  "version": "1.0.0",
+  "description": "Gemini 4 Neon 1080x1080 hand-drawn motion promo built with Remotion v4 (React + TypeScript)",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render GeminiNeonPromo out/gemini-neon-promo.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.251",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.251"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.18",
+    "typescript": "^5.8.3"
+  }
+}
